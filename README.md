@@ -1,3 +1,14 @@
+Opening the project:
+To open the project, open index.html in a web broswer, or navigate to my project at (http://http://gouldbf.github.io/frontend-nanodegree-mobile-portfolio/).
+
+
+Optimizations performed by gouldbf:
+- Inline critical CSS
+- Decrease number of pizzas to load
+- Async JS load
+- Increase computational efficiency of the for loop
+
+Project provided to Udacity:
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
@@ -70,9 +81,13 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://yourjustlucky.com/">http://yourjustlucky.com/</a>
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
+<<<<<<< HEAD
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
 
 Optimizations performed by gouldbf:
 - Inline critical CSS
 - Decrease number of pizzas to load
 - Async JS load
+=======
+* <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+>>>>>>> master
