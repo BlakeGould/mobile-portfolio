@@ -7,6 +7,7 @@ Optimizations performed by gouldbf:
 - Decrease number of pizzas to load
 - Async JS load
 - Increase computational efficiency of the for loop
+  - Move calculated variables outside the for loop
 
 Project provided to Udacity:
 ## Website Performance Optimization portfolio project
