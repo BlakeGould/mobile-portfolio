@@ -449,15 +449,15 @@ var resizePizzas = function(size) {
   }
 
   // Iterates through pizza elements on the page and changes their widths
+
   function changePizzaSizes(size) {
-    // var len = document.getElementsByClassName("randomPizzaContainer").length
-    // console.log(len);
-    for (var i = 0; i < 10; i++) {
-      var dx = determineDx(document.getElementsByClassName('randomPizzaContainer')[0], size);
-      var newwidth = (document.getElementsByClassName("randomPizzaContainer")[i].offsetWidth + dx) + 'px';
-      document.getElementsByClassName("randomPizzaContainer")[i].style.width = newwidth;
+    var pizzas = document.getElementsByClassName("randomPizzaContainer");
+    var dx = determineDx(pizzas[0], size);
+    var newwidth = (pizzas[0].offsetWidth + dx) + 'px';
+    for (var i = 0; i < pizzas.length; i++) {
+      pizzas[i].style.width = newwidth;
     }
-  }
+  } // Thanks to Udacity reviewer adhyan for showing me the changePizzaSizes function!
 
   changePizzaSizes(size);
 
